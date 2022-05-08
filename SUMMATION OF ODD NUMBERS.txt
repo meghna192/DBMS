@@ -1,0 +1,16 @@
+declare
+n number;
+sum1 number default 0;
+endvalue number;
+begin
+endvalue:= 4;
+n:=1;
+for n in 1..endvalue
+loop
+if mod(n,2)=1
+then
+sum1:=sum1+n;
+end if;
+end loop;
+dbms_output.put_line('sum = '||sum1);
+end;
