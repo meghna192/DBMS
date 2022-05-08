@@ -1,0 +1,10 @@
+declare
+a number;
+b number;
+c number;
+begin
+a:=12;
+b:=25;
+c:=a+b;
+dbms_output.put_line('sum of'||a||'and'||b||'is'||c);
+end;

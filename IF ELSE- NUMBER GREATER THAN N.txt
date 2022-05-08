@@ -1,0 +1,10 @@
+declare
+n number;
+begin
+n:=10;
+if n<5 then
+dbms_output.put_line('entered number is less than 5');
+else
+dbms_output.put_line('entered number is greater than 5');
+end if;
+end;

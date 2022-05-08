@@ -1,0 +1,17 @@
+declare
+a number;
+b number;
+c number;
+d number;
+begin
+a:=10;
+b:=5;
+c:=12;
+if(a>b)and(a>c) then
+dbms_output.put_line('A is maximum');
+elsif(b>a)and(b>c)then
+dbms_output.put_line('B is maximum');
+else
+dbms_output.put_line('C is maximum');
+end if;
+end;
